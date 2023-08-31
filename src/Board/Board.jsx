@@ -181,7 +181,7 @@ const Board = () => {
 
   return (
     <>
-    <button onClick={moveSnake}>move manually</button>
+    {/* <button onClick={moveSnake}>move manually</button> */}
     {/* <button onClick={growSnake}>grow manually</button> */}
     <div>score:{score} </div>
     <div className='board'>
