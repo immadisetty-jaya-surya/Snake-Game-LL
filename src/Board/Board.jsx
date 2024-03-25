@@ -66,7 +66,7 @@ const Board = () => {
 
   UseInterval(()=>{
     moveSnake()
-  },140)
+  },300)
 
   const handleKeydown = (e)=>{
     const newDirection = getDirectionFromKey(e.key);
