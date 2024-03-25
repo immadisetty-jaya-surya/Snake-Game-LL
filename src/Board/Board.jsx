@@ -25,8 +25,8 @@ class LinkedList{
 //   }
 // }
 
-const BOARD_SIZE = 15;
-const PROBABILITY_OF_REVERSE_FOOD = 0.5;
+const BOARD_SIZE = 12;
+const PROBABILITY_OF_REVERSE_FOOD = 0.2;
 
 const Direction = {
   UP : 'UP',
